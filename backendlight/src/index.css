@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.site {
+  display: flex;
+  justify-content: center;
+}
+
+.peopleDiv {
+  width: 80%; /* Breite der Divs */
+  max-width: 600px; /* Maximale Breite */
+  margin: 10px; /* Abstand zwischen den Divs */
+  padding: 20px; /* Innenabstand für mehr Platz */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Hintergrundfarbe für bessere Sichtbarkeit */
+  border-radius: 8px; /* Abgerundete Ecken */
+}
+
+.starshipsDiv {
+  width: 80%; /* Breite der Divs */
+  max-width: 600px; /* Maximale Breite */
+  margin: 10px; /* Abstand zwischen den Divs */
+  padding: 20px; /* Innenabstand für mehr Platz */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Hintergrundfarbe für bessere Sichtbarkeit */
+  border-radius: 8px; /* Abgerundete Ecken */
+}
+
+.ueberschrift {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  justify-content: center;
+}
